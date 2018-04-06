@@ -1,0 +1,231 @@
+body{
+    margin: 0px;
+    background-color: white;
+}
+
+
+/* NAV */
+header ul.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #050C30;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    text-align: center;
+}
+.logo{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    width: 150px;
+}
+header .menu li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+header .menu li a:hover{
+    background-color: white;
+    color: #050C30
+}
+.rs{
+    position: absolute;
+    right: 10px;
+    padding-top: 10px;
+    z-index: 100;
+}
+.rs img{
+    display: inline-block;
+    width: 25px;
+}
+
+
+/* SECTION */
+section{
+    margin-left: 30%;
+}
+.entete{
+    padding-top: 50px;
+    position: relative;
+}
+.jcq{
+    width: 229px;
+
+}
+.fleur{
+    width: 188px;
+
+}
+.violon{
+    width: 180px;
+}
+.enfant{
+    width: 145px;
+}
+.entete .jcq, .fleur, .violon, .enfant{
+    display: inline-block;
+    vertical-align: top;
+}
+.couple{
+    position: absolute;
+    top: 263px;
+    left: 425px;
+    width: 180px;
+}
+.presentation{
+    margin-top: 100px;
+}
+.bloc1, .bloc2{
+    display: inline-block;
+    vertical-align: top;
+}
+.bloc1 img{
+    height: 234px;
+}
+
+.bloc3, .bloc4{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+}
+.bloc2, .bloc4{
+    margin-left: 50px;
+}
+.bloc1, .bloc2{
+    height: 440px;
+    position: relative; 
+}
+.bloc3, .bloc4{
+    height: 460px;
+    position: relative;
+}
+section .presentation a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: white;
+    color: #050C30;
+    border: 2px solid #050C30;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+section .presentation a:hover{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #050C30;
+    color: white;;
+    border: 2px solid #050C30;
+}
+.mjf{
+    width: 370px;
+}
+.shop{
+    width: 360px;
+}
+.blog{
+    width: 350px;
+}
+.ambro{
+    width: 350px;
+}
+
+footer{
+    margin-top: 150px;
+    background-color: #E6E6E6;
+}
+footer div{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+}
+.newsletter{
+    margin-left: 20%;
+}
+.send_news{
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    background-color: #050C30;
+    color: white;;
+    border: 2px solid #050C30;
+    font-size: 10px;
+}
+.send_news:hover{
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    background-color: white;
+    color: #050C30;
+    border: 2px solid #050C30;
+}
+
+
+/* FONT */
+@font-face{
+    font-family: Avenir;
+    src: url('../font/avenir.otf');
+}
+header .menu li a{
+    font-family: Avenir;
+}
+section .presentation p{
+    font-family: Avenir;
+    font-size: 13px;
+}
+section .presentation a{
+    font-family: Avenir;
+    font-size: 14px;
+}
+.photo{
+    font-family: Avenir;
+    font-size: 25px;
+}
+.art{
+    font-family: Avenir;
+    font-size: 25px;
+    position: absolute;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    right: 860;
+    bottom: 0;
+}
+.voyage{
+    font-family: Avenir;
+    font-size: 25px;
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+    right: 70;
+}
+.passion{
+    font-family: 'Cormorant Garamond', serif;
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    font-size: 30px;
+}
+.nombre{
+    font-family: 'Cormorant Garamond', serif;
+    position: absolute;
+    top: 440px;
+    left: 54%;
+    font-size: 80px;
+}
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+footer{
+    font-family: Avenir;
+    font-size: 10px;
+    color: #050C30;
+    text-align: center;
+}

@@ -1,0 +1,220 @@
+body{
+    margin: 0px;
+    background-color: white;
+}
+
+
+/* NAV */
+header{
+    margin-top: 0;
+}
+header ul.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #050C30;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    text-align: center;
+}
+.logo{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    width: 150px;
+}
+header .menu li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+header .menu li a:hover{
+    background-color: white;
+    color: #050C30;
+}
+.rs{
+    position: absolute;
+    right: 10px;
+    padding-top: 10px;
+    z-index: 100;
+}
+.rs img{
+    display: inline-block;
+    width: 25px;
+}
+
+
+
+/* SECTION */
+section{
+    margin-left: 30%;
+    margin-right: 5%;
+}
+.entete{
+    padding-top: 40px;
+    border-bottom: 2px solid #E6E6E6;
+    position: relative;
+}
+.form img{
+    width: 200px;
+    margin-left: 50px;
+}
+.form form, .form img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.mail, .objet{
+    padding: 5px 100px 10px 10px;
+}
+.msg{
+    padding: 5px 300px 150px 10px;
+}
+.send{
+    padding: 10px;
+    text-decoration: none;
+    background-color: white;
+    color: #050C30;
+    border: 2px solid #050C30;
+    margin-left: 45%;
+}
+.send:hover{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #050C30;
+    color: white;;
+    border: 2px solid #050C30;
+}
+.form{
+    border-bottom: 2px solid #E6E6E6;
+    padding-bottom: 70px;
+    margin-bottom: 100px;
+}
+form{
+    margin-left: 100px;
+}
+input{
+    border: 2px solid #050C30;
+}
+.pub{
+    margin-top: 50px;
+}
+.pub img{
+    width: 70px;
+}
+.facebook, .instagramm, .ytvim, .linkdin, .twitter{
+    border: 2px solid #050C30;
+    width: 250px;
+    height: 100px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.facebook, .instagramm, .ytvim{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+}
+.linkdin, .twitter{
+    margin-top: 50px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+}
+
+footer{
+    margin-top: 150px;
+    background-color: #E6E6E6;
+}
+footer div{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+}
+.newsletter{
+    margin-left: 20%;
+}
+.send_news{
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    background-color: #050C30;
+    color: white;;
+    border: 2px solid #050C30;
+    font-size: 10px;
+}
+.send_news:hover{
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    background-color: white;
+    color: #050C30;
+    border: 2px solid #050C30;
+}
+
+
+
+/* FONT */
+@font-face{
+    font-family: Avenir;
+    src: url('../font/avenir.otf');
+}
+header .menu li a{
+    font-family: Avenir;
+}
+h1{
+    font-family: Avenir;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 5%;
+    padding-left: 210px;
+}
+.entete a{
+    font-family: Avenir;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    position: absolute;
+    color: #A4A4A4;
+    padding-right: 20px;
+    border-right: 2px solid #E6E6E6;
+    left: 7%;
+    top: 83px;
+}
+.entete a:hover{
+    color: black;
+}
+h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+    border-bottom: 2px solid;
+    margin-bottom: 50px;
+}
+.form{
+    font-family: Avenir;
+    font-size: 13px;
+    color: #050C30;
+}
+::placeholder{
+    color: #050C30;
+    opacity: 1;
+}
+.pub{
+    font-family: Avenir;
+    font-size: 13px;
+    color: #050C30;
+    text-align: center;
+}
+
+
+footer{
+    font-family: Avenir;
+    font-size: 10px;
+    color: #050C30;
+    text-align: center;
+}
