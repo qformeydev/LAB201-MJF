@@ -105,7 +105,7 @@ input{
     width: 70px;
 }
 .facebook, .instagramm, .ytvim, .linkdin, .twitter{
-    border: 2px solid #050C30;
+    border: 2px dotted #050C30;
     width: 250px;
     height: 100px;
     padding-top: 25px;

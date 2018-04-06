@@ -195,7 +195,7 @@ section .presentation a{
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     right: 860;
-    bottom: 0;
+    bottom: 6;
 }
 .voyage{
     font-family: Avenir;
@@ -204,6 +204,7 @@ section .presentation a{
     writing-mode: vertical-rl;
     text-orientation: sideways-right;
     right: 70;
+    top: 130;
 }
 .passion{
     font-family: 'Cormorant Garamond', serif;
